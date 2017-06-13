@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Function_Tool">
+      <UniqueIdentifier>{fc7485f8-44cc-44e0-96e0-aa0c96a6592d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\New_Technique">
+      <UniqueIdentifier>{abc6f5f6-f670-4c0b-a82b-a995ec9ba136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Test_Examples">
+      <UniqueIdentifier>{f7f0dae7-f098-4d68-bb08-11868b760abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL_Study">
+      <UniqueIdentifier>{099df89e-22fc-4424-828a-fb98f295ddd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Test_Examples\OOP">
+      <UniqueIdentifier>{ceb5035c-a6e1-447d-9549-069af194d593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Design_Pattern">
+      <UniqueIdentifier>{55c73fcb-3d9e-414f-b368-b355c3c89a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DirectX 11">
+      <UniqueIdentifier>{0c914feb-6848-497b-9be0-fefc5c4c634b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Direct 2D">
+      <UniqueIdentifier>{18b26c93-cc0a-45b7-9570-4ebfd22f53c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Test_Examples\friend">
+      <UniqueIdentifier>{9e5327fa-3772-4ac1-b055-e074642c1fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C++11">
+      <UniqueIdentifier>{9f614b7b-9caf-4ad0-994a-8caae237d292}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Function_Tool.cpp">
+      <Filter>소스 파일\Function_Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="02.argument_parameter.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="02.argument_parameter2.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="03.directory_file_list.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="04.heterogeneous_multithread.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="05.QueuedCompletionStatus.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="01.m_function_thread_lambda.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="01.m_function_thread.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="05_IOCP_framework.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="06.%28Un_Fin%29RWLock.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="ch3.constexpr.cpp">
+      <Filter>소스 파일\STL_Study</Filter>
+    </ClCompile>
+    <ClCompile Include="ch3.decltype.cpp">
+      <Filter>소스 파일\STL_Study</Filter>
+    </ClCompile>
+    <ClCompile Include="ch3.scoped_enumberation.cpp">
+      <Filter>소스 파일\STL_Study</Filter>
+    </ClCompile>
+    <ClCompile Include="ch4.allocator.cpp">
+      <Filter>소스 파일\STL_Study</Filter>
+    </ClCompile>
+    <ClCompile Include="01.scene_copy.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="02.getkeyboardstate_in_thread.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="03.inheritence.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="04.object_Pooling.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="05.xm_math.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="06.list_substitution.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>소스 파일\Test_Examples\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\Test_Examples\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Execute.cpp">
+      <Filter>소스 파일\Test_Examples\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Attribute.cpp">
+      <Filter>소스 파일\Test_Examples\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="07.Copy_Constructor.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="08.Uni_Data_Type.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="07.info_file.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="09.move vs memcpy.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="10.intersectoin optimization.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="11.destruction.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="01.RenderState Overhead.cpp">
+      <Filter>소스 파일\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="02.Shader Set Overhead.cpp">
+      <Filter>소스 파일\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="03.Constant Buffer Set Overhead.cpp">
+      <Filter>소스 파일\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="12.value copy.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="13.copy constructor.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="14.if_ternary operator.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="08.screen_capture.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="05.Singletone.cpp">
+      <Filter>소스 파일\Design_Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="07.Class_Adapter.cpp">
+      <Filter>소스 파일\Design_Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="07.Object_Adapter.cpp">
+      <Filter>소스 파일\Design_Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="02.Observer.cpp">
+      <Filter>소스 파일\Design_Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="01.Strategy.cpp">
+      <Filter>소스 파일\Design_Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="04.Factory.cpp">
+      <Filter>소스 파일\Design_Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="03.Decorator.cpp">
+      <Filter>소스 파일\Design_Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="06.Command.cpp">
+      <Filter>소스 파일\Design_Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="01.Brush Create Overhead.cpp">
+      <Filter>소스 파일\Direct 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="UiObject.cpp">
+      <Filter>소스 파일\Test_Examples\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderCom.cpp">
+      <Filter>소스 파일\Test_Examples\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="test_main.cpp">
+      <Filter>소스 파일\Test_Examples\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="15.Address_bool.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="09.file_save.cpp">
+      <Filter>소스 파일\New_Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="16.stack_memory.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="17.vector_init.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="18.bit_operation.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="19.containers_loop_performance.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="00_이동연산자.cpp">
+      <Filter>소스 파일\C++11</Filter>
+    </ClCompile>
+    <ClCompile Include="20.atomic.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="01_생성자_소멸자_호출시점.cpp">
+      <Filter>소스 파일\C++11</Filter>
+    </ClCompile>
+    <ClCompile Include="02.Critical_Section.cpp">
+      <Filter>소스 파일\C++11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Function_Tool.h">
+      <Filter>소스 파일\Function_Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>소스 파일\Test_Examples\OOP</Filter>
+    </ClInclude>
+    <ClInclude Include="Execute.h">
+      <Filter>소스 파일\Test_Examples\OOP</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Attribute.h">
+      <Filter>소스 파일\Test_Examples\OOP</Filter>
+    </ClInclude>
+    <ClInclude Include="UiObject.h">
+      <Filter>소스 파일\Test_Examples\friend</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderCom.h">
+      <Filter>소스 파일\Test_Examples\friend</Filter>
+    </ClInclude>
+    <ClInclude Include="AvgTimerBeg.h">
+      <Filter>소스 파일\Function_Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="AvgTimerEnd.h">
+      <Filter>소스 파일\Function_Tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="main.txt" />
+  </ItemGroup>
+</Project>
