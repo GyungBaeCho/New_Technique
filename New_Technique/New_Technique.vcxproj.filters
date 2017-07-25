@@ -219,6 +219,9 @@
     <ClCompile Include="02.Critical_Section.cpp">
       <Filter>소스 파일\C++11</Filter>
     </ClCompile>
+    <ClCompile Include="ch00.smart_pointer.cpp">
+      <Filter>소스 파일\STL_Study</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function_Tool.h">
