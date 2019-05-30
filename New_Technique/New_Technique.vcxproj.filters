@@ -18,9 +18,6 @@
     <Filter Include="소스 파일\Test_Examples">
       <UniqueIdentifier>{f7f0dae7-f098-4d68-bb08-11868b760abd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\STL_Study">
-      <UniqueIdentifier>{099df89e-22fc-4424-828a-fb98f295ddd1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Test_Examples\OOP">
       <UniqueIdentifier>{ceb5035c-a6e1-447d-9549-069af194d593}</UniqueIdentifier>
     </Filter>
@@ -41,6 +38,12 @@
     </Filter>
     <Filter Include="소스 파일\JSON">
       <UniqueIdentifier>{667e3347-1cdc-4a0e-abee-ca139e6d95bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GSL">
+      <UniqueIdentifier>{6d1a7850-e502-4689-90a3-d5fe4e0e1d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL">
+      <UniqueIdentifier>{099df89e-22fc-4424-828a-fb98f295ddd1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -75,16 +78,16 @@
       <Filter>소스 파일\New_Technique</Filter>
     </ClCompile>
     <ClCompile Include="ch3.constexpr.cpp">
-      <Filter>소스 파일\STL_Study</Filter>
+      <Filter>소스 파일\STL</Filter>
     </ClCompile>
     <ClCompile Include="ch3.decltype.cpp">
-      <Filter>소스 파일\STL_Study</Filter>
+      <Filter>소스 파일\STL</Filter>
     </ClCompile>
     <ClCompile Include="ch3.scoped_enumberation.cpp">
-      <Filter>소스 파일\STL_Study</Filter>
+      <Filter>소스 파일\STL</Filter>
     </ClCompile>
     <ClCompile Include="ch4.allocator.cpp">
-      <Filter>소스 파일\STL_Study</Filter>
+      <Filter>소스 파일\STL</Filter>
     </ClCompile>
     <ClCompile Include="01.scene_copy.cpp">
       <Filter>소스 파일\Test_Examples</Filter>
@@ -223,10 +226,13 @@
       <Filter>소스 파일\C++11</Filter>
     </ClCompile>
     <ClCompile Include="ch00.smart_pointer.cpp">
-      <Filter>소스 파일\STL_Study</Filter>
+      <Filter>소스 파일\STL</Filter>
     </ClCompile>
     <ClCompile Include="JSON\01.json.cpp">
       <Filter>소스 파일\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="21.int compairson.cpp">
+      <Filter>소스 파일\Test_Examples</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
